@@ -1,0 +1,24 @@
+{
+  "name": "code-quality",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint":"jslint src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarabs3/code-quality.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarabs3/code-quality/issues"
+  },
+  "homepage": "https://github.com/sarabs3/code-quality#readme",
+  "dependencies": {
+    "jslint": "^0.11.0"
+  }
+}
